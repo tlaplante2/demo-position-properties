@@ -188,14 +188,22 @@ ul {
 
 .relative {
     /* add relative properties here */
+    position: relative;
+    top: 40px;
+    right: 20px;
 }
 
 .relative-2 {
     /* add relative-2 properties here */
+    position: relative;
 }
 
 .absolute {
     /* add absolute properties here */
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* removes all space the box was in and moves it to the top right of the page  */
 }
 
 .absolute-2 {
@@ -203,6 +211,10 @@ ul {
     height: 75px;
     border: 2px solid #a89070;
     /* add absolute-2 properties here */
+    position: absolute;
+    right: 0px;
+    bottom: -10px;
+    /* moves child box to the bottom right of the parent container  */
 }
 
 .absolute-2 .box-paragraph {
@@ -213,6 +225,10 @@ ul {
 
 .fixed {
     /* add fixed properties here */
+    position: fixed;
+    top: 50vh;
+    right: 0;
+    /* sticks the box to the middle of the screen while scrolling  */
 }
 
 
